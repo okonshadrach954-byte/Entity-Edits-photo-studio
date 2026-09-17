@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>EntityEdits Photo Studio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #080b18, #17113d, #101c42);
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 22px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .logo span {
+      color: #5ee7ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span {
+      color: #7c6cff;
+    }
+
+    .hero p {
+      color: #c9c9d8;
+      font-size: 17px;
+      line-height: 1.6;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .upload-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 16px 30px;
+      border-radius: 30px;
+      background: linear-gradient(90deg, #5ee7ff, #806cff);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+    }
+
+    input {
+      display: none;
+    }
+
+    .features {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .features h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 25px 15px;
+      border-radius: 18px;
+      text-align: center;
+    }
+
+    .icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #bbb;
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #888;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      ENTITY<span>EDITS</span>
+    </div>
+  </header>
+
+  <section class="hero">
+
+    <h1>
+      Transform Your <span>Photos</span>
+    </h1>
+
+    <p>
+      Create professional AI-powered photos,
+      portraits, posters and creative visuals
+      directly from your phone.
+    </p>
+
+    <label class="upload-btn">
+      ✨ Upload Photo
+      <input type="file" accept="image/*">
+    </label>
+
+  </section>
+
+  <section class="features">
+
+    <h2>What can you create?</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">🪄</div>
+        <h3>AI Enhance</h3>
+        <p>Improve your photos with AI.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🎨</div>
+        <h3>Background</h3>
+        <p>Change your photo background.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">👤</div>
+        <h3>Portraits</h3>
+        <p>Create professional portraits.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🖼️</div>
+        <h3>Creative Edits</h3>
+        <p>Turn ideas into amazing visuals.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 EntityEdits Photo Studio
+  </footer>
+
+</body>
+</html>
